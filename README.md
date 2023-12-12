@@ -1,1 +1,1 @@
-#These are the solutions of leetcode question , I have attempt.
+#These are the solutions of leetcode question tha i attempted.
