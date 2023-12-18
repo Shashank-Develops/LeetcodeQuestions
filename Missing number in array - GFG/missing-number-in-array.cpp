@@ -15,9 +15,10 @@ class Solution{
     int missingNumber(vector<int>& array, int n) {
         int expectedSum = n * (n + 1) / 2;
 int actualSum = 0;
-for (int num : array) {
-    actualSum += num;
+for (int i = 0; i < n - 1; ++i) {
+    actualSum += array[i];
 }
+
 return expectedSum - actualSum;
 
     }
