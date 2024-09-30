@@ -28,7 +28,7 @@ class CustomStack {
     pendingIncrements[i] += val;
   }
 
- private:
+ // private:
   const int maxSize;
   stack<int> stack;
   vector<int> pendingIncrements;
